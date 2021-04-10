@@ -1,0 +1,11 @@
+body{
+    background-color: gray;
+}
+.col-sm-2, .col-md {
+    background-color: #AAAAAA;
+    border: 1px solid black;
+}
+.col-md-9, .col-md-3{
+    background-color: aquamarine;
+    border: 1px solid black;
+}
