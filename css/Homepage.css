@@ -1,5 +1,14 @@
 body {
     background-color: gray;
-    padding: 0;
-    margin:0;
+   
 }
+/*Set the carousel for 4 images,each of them with it correspondient caption-->*/
+.item img { 
+
+    width: 23%;
+    height: auto;
+   
+    
+
+}
+
