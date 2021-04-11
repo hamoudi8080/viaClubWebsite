@@ -1,3 +1,110 @@
-body{
-    background-color: gray;
+ 
+body {
+    margin: 5px;
+    background-color: rgb(207, 178, 178);
+
+}
+
+.topnav {
+    overflow: hidden; 
+    background-color: #333;
+    display: block;
+    width: 100%;
+    position: sticky;
+    
+    top: 0;
+    z-index: 1;
+}
+  
+.topnav a {
+    float: right;
+    color: #f8eeda;
+    text-align: center;
+    padding: 35px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+#logo {
+    width: 75px;
+    height: auto;
+    display: block;
+    float: left;
+}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    opacity: 1;
+}
+.topnav a.active {
+    background-color: #0061bb;
+}
+.middle {
+    margin-top: 10px;
+}
+.tevez1{
+    width: 100%;
+    float: right;
+    border-radius: 5px;
+    
+    
+}
+
+h1 {
+    margin: 20px;
+    font-size: 40px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+
+}
+h2 {
+    font-size: 30px;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.news-list {
+    
+    width: 40%;
+}
+.news-table{
+    /*here is 100% of 40% if we say 50% so it will apear halv of 40%*/
+    width: 100%;
+    background-color: rgb(54, 54, 235);
+    opacity: 0.8.9;
+    transition: 0.9s;
+     
+}
+
+.news-table:hover {
+    background-color:blue;
+    
+    opacity: 1;
+}
+
+
+p{
+    border: 1px solid rgb(52, 46, 138);
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+   
+    
+    
+
+}
+p a{
+    color: rgb(76, 170, 247);
+    text-decoration: none;
+}
+.title {
+   font-size: 30px;
+   color: rgb(0, 0, 0);
+   background-color: #333;
+    
 }
