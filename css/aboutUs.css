@@ -21,11 +21,7 @@ body{
     transform: scale(1.2);
     
 }
-#overfl{
 
-
-
-}
 #intro{
     display: flex;
     flex-direction: column;
