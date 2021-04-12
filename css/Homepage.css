@@ -5,15 +5,13 @@ html,body{
 body {
     background-color: gray;
     position: relative;
-    5
     
    
    
 }
-/*Set the carousel for 4 images,each of them with it correspondient caption-->*/
+/*Set the carousel for 3 images,each of them with it correspondient caption-->*/
 .item img { 
 
-    width: 23%;
-    height: auto;
+height: auto;
  }  
  
