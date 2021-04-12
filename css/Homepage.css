@@ -5,13 +5,13 @@ html,body{
 body {
     background-color: gray;
     position: relative;
-    
-   
-   
-}
-/*Set the carousel for 3 images,each of them with it correspondient caption-->*/
-.item img { 
 
-height: auto;
- }  
+
+}
+
+
+.footer {
  
+    position:absolute;
+    bottom: 0;
+}
