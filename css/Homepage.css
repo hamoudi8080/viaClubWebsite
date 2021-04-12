@@ -1,9 +1,13 @@
-html{
+html,body{
     height: auto;
 }
 
 body {
     background-color: gray;
+    position: relative;
+    5
+    
+   
    
 }
 /*Set the carousel for 4 images,each of them with it correspondient caption-->*/
@@ -12,18 +16,4 @@ body {
     width: 23%;
     height: auto;
  }  
-  /*Footer*/  
-
-.footer .footer-bottom {
-    background: black;
-    color: white;
-    height: 30px 20px;
-    width: 100%;
-    text-align: center;
-    position: absolute;
-    bottom: 0px;
-    padding-top: 2px;
-    font-style: italic;
-    
-   
-}
+ 
