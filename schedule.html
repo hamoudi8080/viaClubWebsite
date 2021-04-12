@@ -12,24 +12,30 @@
   <body>
       
     <!--Top navegation bar -->
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-        <div class= "navbar.header">
-            <img src="images/viac.png" id="logo" alt="logo">
-        </div>
+    <nav  class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+      <a class="navbar-brand" href="#"><img src="images/viac_small.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="HomePage.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="schedule.html">Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutUs.html">The Team</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-    <ul  class="nav navbar-nav">
-            <li><a href="HomePage.html">Home</a></li>
-            <li class="active"><a href="#">Schedule</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="aboutUs.html">About Us</a></li>
-    </ul> 
-        </div>
-        </nav>
-
-        <div class="container"></div>
-
-      <div>
+  <div class="container align-item-center" col-sm-4 col-sm-offset-4>
         
         <table id="calendar">
           <tr>
