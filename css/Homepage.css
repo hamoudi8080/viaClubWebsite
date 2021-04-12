@@ -1,17 +1,11 @@
 html,body{
-    height: auto;
+    height:100%;
+    ;
 }
 
 body {
     background-color: gray;
-    position: relative;
+    position:relative;
 
 
-}
-
-
-.footer {
- 
-    position:absolute;
-    bottom: 0;
 }
