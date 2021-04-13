@@ -9,3 +9,20 @@ body{
     background-size: 40%;
 }
 
+.container
+{
+    margin-top: 5.5em;
+}
+
+    .player{
+        opacity: 0.8;
+        transition:.2s;
+        color: black;
+    }
+    .player:hover{
+        opacity: 1;
+    }
+    
+#blank{
+    height: 10em;
+}
