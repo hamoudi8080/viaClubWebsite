@@ -7,11 +7,13 @@ body{
     background-position: 0% 75%;
     background-attachment: fixed;
     background-size: 40%;
+        
 }
 
 .container
 {
     margin-top: 5.5em;
+    
 }
 
     .player{
@@ -25,4 +27,12 @@ body{
     
 #blank{
     height: 10em;
+}
+.imgBackgroudn{
+    height: 300px;
+    width: 500px    ;
+    background-color: black;
+}
+footer{
+   
 }
