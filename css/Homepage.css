@@ -9,3 +9,14 @@ body {
 
 
 }
+.btn-secondary {
+    background-color: transparent;
+    border-color: #231feb;
+    color: #231feb;
+}
+
+footer {
+    
+    bottom: 0;
+   
+}
