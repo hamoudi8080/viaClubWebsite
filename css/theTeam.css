@@ -24,8 +24,13 @@ body{
 .player{
    display: flex;
    justify-content: center;
+   transition: .2s;
 
 }
+.player img:hover {
+    transform:scale(1.2);
+}
+
 .players{
     display: flex;
     flex-direction: row;
@@ -33,8 +38,26 @@ body{
 }
 .videoContainer{
     display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
     background-color: rgb(23,23,109);
+    flex-direction: row-reverse;
+    justify-content: center;
+    
+    
+}
+video{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-left: 1.5em;
+}
+
+
+.videoParagraph{
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
