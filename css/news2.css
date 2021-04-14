@@ -28,13 +28,16 @@ body{
 }
 .images{
     border-radius: 10px;
+    transition: 0.5s;
 }
 
 .images:hover{
     border-radius: 70px;
-    transition: 0.9s;
+    
 }
-
+.myimage{
+    height: 430px;
+}
 .news p {
     color: yellow;
     font-size: 56px;
