@@ -1,0 +1,19 @@
+body{
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.date {
+    margin-top: 6.5em;
+    align-items:stretch;
+  
+    margin-left: 12.5em;
+}
+
+.article img {
+    margin-top: 0em;
+    width: 100%;
+    border-radius: 10px;
+}

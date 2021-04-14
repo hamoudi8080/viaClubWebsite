@@ -70,12 +70,15 @@ h2 {
     opacity: 0.8.9;
     transition: 0.9s;
     border-radius: 5px;
+    
+    margin: 5px;
+   
      
 }
-
+ 
 .news-table:hover {
     background-color:blue;
-    
+   
     opacity: 1;
 }
 

@@ -130,4 +130,7 @@ overflow: hidden;
 .row{
     padding: 30px;
 }
+.newstable{
+    height: 100%;
+}
 
