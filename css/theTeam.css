@@ -17,14 +17,10 @@ body{
 }
 
     
-#blank{
-    height: 10em;
+.blank{
+    height: 6em;
 }
-.imgBackgroudn{
-    height: 300px;
-    width: 500px    ;
-    background-color: black;
-}
+
 .player{
    display: flex;
    justify-content: center;
@@ -34,8 +30,11 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-        
-    
-    
-
+}
+.videoContainer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(23,23,109);
 }

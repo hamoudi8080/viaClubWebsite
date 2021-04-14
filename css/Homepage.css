@@ -1,6 +1,6 @@
 html,body{
     height:100%;
-    ;
+    
 }
 
 body {
@@ -23,8 +23,14 @@ body {
     min-width: 100%;
 }
 
-footer {
-    
-    bottom: 0;
-   
+
+#fans-comments-carousel {
+    min-height: 200px;
+    background: rgb(23,23,109);
+    width: 100%;
 }
+
+
+
+
+
