@@ -15,18 +15,7 @@ body{
     margin-top: 5.5em;
     
 }
-@media screen (min-width:900px) {
-    
 
-    .player{
-        opacity: 0.8;
-        transition:.2s;
-        color: black;
-    }
-    .player:hover{
-        opacity: 1;
-    }
-}
     
 #blank{
     height: 10em;
