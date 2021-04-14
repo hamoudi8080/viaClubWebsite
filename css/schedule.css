@@ -4,14 +4,8 @@ html,body{
     }
   
   body {
-      background-color: rgb(70, 74, 77);
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      color: antiquewhite;
-      background-image: url(kicking_ball.png);
-      background-repeat: no-repeat;
-      background-position: 0% 75%;
-      background-attachment: fixed;
-      background-size: 40%;
+    background-color: gray;
+    position:relative;
   }
   
   #logo {
@@ -21,81 +15,6 @@ html,body{
       float: left;
     }
   
-    .topnav { 
-      overflow: hidden;
-      background-color: #333;
-      display: block;
-      width: 100%;
-      position: sticky;
-      top: 0;
-      z-index: 1;
-    }
-    
-    .topnav a {
-      float: right;
-      color: #f8eeda;
-      text-align: center;
-      padding: 35px 16px;
-      text-decoration: none;
-      font-size: 17px;
-    }
-  
-    .topnav a:hover {
-      background-color: #ddd;
-      color: black;
-      opacity: 1;
-    }
-  
-    .topnav a.active {
-      background-color: #0061bb;
-    }
-  
-  
-  .The_team {
-      position: relative;
-      top: 10%;
-      width: 100%;
-      text-align: center;
-  }
-  
-  .The_team p {
-      padding: 0px;
-      margin: 0px;
-  
-  }
-  
-  .The_team h1 {
-      padding: 0px;
-      font-size: 100px;
-      margin-bottom: 0px;
-  }
-  
-  .The_team h2 {
-      padding: 0px;
-      margin: 0px;
-  }
-  
-  
-  .The_team img {
-      margin-top: 50px;
-      width: 150px;
-      border: 10px solid black;
-      border-radius: 10px;
-  }
-  
-  .copyrigthText {
-    width: 100%;
-    background: #181818;
-    padding: 1px;
-    padding-right: 0px;
-    padding-left: 0px;
-    text-align: center;
-    font-style: italic;
-    
-    bottom: 0;
-    font-size: 0.5em;
-  
-  }  
   #calendar{
     table-layout: fixed;
     border-collapse: collapse;
@@ -144,10 +63,8 @@ html,body{
     bottom: 0;
     width: 100%;
     background: #333;
-    
-   
-    
   }
+
   .footer li {
     text-decoration:none;
     list-style:none;
