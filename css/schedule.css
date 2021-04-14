@@ -4,16 +4,9 @@ html,body{
     }
   
   body {
-    background-color: gray;
+    background-color: #fafaff;
     position:relative;
   }
-  
-  #logo {
-      width: 75px;
-      height: auto;
-      display: block;
-      float: left;
-    }
   
   #calendar{
     table-layout: fixed;
@@ -22,19 +15,25 @@ html,body{
     margin-right:auto;
     
   }
+
+  #calendar td
+  {
+    background-color: #EEF0F2;
+  }
   
   #calendar td, #calendar th{
-    border:1px solid #ddd;
+    border:1px solid rgb(0, 0, 0);
     padding: 8px;
     width: 20em;
   }
   
   #calendar th{
-    background-color: #0061bb;
+    background-color: #103f79;
+    color: #fabd21;
   }
   
   #calendar td:hover{
-    background-color: rgb(132, 151, 201);
+    background-color: #7c7c7c;
     
   }
   
