@@ -25,6 +25,17 @@ body{
     width: 500px    ;
     background-color: black;
 }
-footer{
-   
+.player{
+   display: flex;
+   justify-content: center;
+
+}
+.players{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+        
+    
+    
+
 }
