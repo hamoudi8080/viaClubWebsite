@@ -27,9 +27,11 @@ body {
 #fans-comments-carousel {
     min-height: 200px;
     background: rgb(23,23,109);
-    width: 100%;
 }
 
+.embed-responsive-100x400px{
+    padding-bottom: 400px;
+  }
 
 
 
