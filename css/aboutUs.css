@@ -133,4 +133,30 @@ overflow: hidden;
 .newstable{
     height: 100%;
 }
+input[type=submit] {
+    
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  input[type=reset] {
+    
+    background-color: #4194e0;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=reset]:hover {
+    background-color: #0664b1;
+  }
 

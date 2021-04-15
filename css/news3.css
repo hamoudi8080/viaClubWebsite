@@ -43,6 +43,10 @@ body{
       justify-content: center;
       
   }
+  .articleImage{
+      display: flex;
+      justify-content: center;
+  }
   
  .card{
      background-color: #fafafa;
