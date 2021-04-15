@@ -3,10 +3,21 @@ body{
     background-color: gray;
     display: flex;
     flex-direction: column;
+    background-image: url(../images/kicking_ball.png);
+    background-repeat: no-repeat;
+    background-position: 0% 75%;
+    background-attachment: fixed;
+    background-size: 40%;
+    color: white;
+     
+
 }
 
 .container{
     margin-top: 6em;
+}
+#headline{
+     color: yellow;
 }
 .container h1{
     background-color: blue;
@@ -48,6 +59,49 @@ body{
 
 p{
     margin-top: 5px;
-    color: blanchedalmond;
+     
     font-size: 1.2em;
 }
+
+.secondnews img{ 
+    width: 1200px;
+}
+
+
+
+
+
+
+
+
+/*-------*/
+.newsReverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.textPart{
+    background-color: #1107a1;
+    color: rgb(218, 191, 40);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.blank{
+    height: 5em;
+    
+}
+video{
+    max-width:100%;
+     
+}
+#leakedParagraph p{
+    width: 100%;
+}
+.bobo video{
+ align-items: center;   
+}
+ 
+
