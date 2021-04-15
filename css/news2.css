@@ -45,3 +45,9 @@ body{
     padding: 9.7px;
     border-radius: 20px;
 }
+
+p{
+    margin-top: 5px;
+    color: blanchedalmond;
+    font-size: 1.2em;
+}
