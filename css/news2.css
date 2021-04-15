@@ -3,12 +3,12 @@ body{
     background-color: gray;
     display: flex;
     flex-direction: column;
-    background-image: url(../images/kicking_ball.png);
+     
     background-repeat: no-repeat;
     background-position: 0% 75%;
     background-attachment: fixed;
     background-size: 40%;
-    color: rgb(32, 33, 37);
+    color: rgb(5, 5, 7);
      
 
 }
