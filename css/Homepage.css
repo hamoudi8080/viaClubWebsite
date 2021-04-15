@@ -114,4 +114,6 @@ body {
 }
 
 
-
+.embed-responsive-100x400px{
+    padding-bottom: 400px;
+  }
