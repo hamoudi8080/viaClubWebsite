@@ -16,10 +16,11 @@ html,body{
     
   }
 
-  #calendar td
+  td
   {
     background-color: #EEF0F2;
   }
+  
   
   #calendar td, #calendar th{
     border:1px solid rgb(0, 0, 0);
@@ -37,18 +38,24 @@ html,body{
     
   }
   
-  #match1{
+  .match1{
     background-color: rgb(255, 236, 131);
     width: 10em;
+    
   }
   
-  #match2{
+  .match2{
     background-color: rgb(196, 205, 255);
     width: 10em;
   }
   
-  #match3{
+  .match3{
     background-color: rgb(182, 184, 183);
+    width: 10em;
+  }
+
+  .event{
+    background-color: rgb(113, 119, 175);
     width: 10em;
   }
 
