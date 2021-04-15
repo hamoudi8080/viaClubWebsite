@@ -9,6 +9,8 @@ body {
 
 
 }
+
+/*The news*/
 .btn-secondary {
     background-color: transparent;
     border-color: #231feb;
@@ -23,6 +25,7 @@ body {
     min-width: 100%;
 }
 
+/*Fans- comments*/
 
 #fans-comments-carousel {
     min-height: 200px;
@@ -32,7 +35,5 @@ body {
 .embed-responsive-100x400px{
     padding-bottom: 100px;
   }
-
-
 
 
