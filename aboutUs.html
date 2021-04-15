@@ -9,9 +9,10 @@
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-  integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-   <script src=" https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+   
+  <script src=" https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
 </head>
 <title>About Us</title>
@@ -28,18 +29,18 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
-   
-      <ul class="navbar-nav ml-auto  " style="font-size: 20px;">
-        <li class="nav-item active"><a class= "nav-link " href="aboutUs.html" >About Us</a></li>
-        <li class="nav-item "> <a class= "nav-link " href="theTeam.html">The Team</a></li>
-        <li class="nav-item "> <a class= "nav-link " href="schedule.html">Schedule</a></li>
-        <li class="nav-item "><a class= "nav-link " href="news3.html">News</a></li>
-        <li class="nav-item "> <a class= "nav-link" href="HomePage.html">Home</a></li>
-    </ul> 
-    
- </div>  
-</div>
-</nav>   
+
+        <ul class="navbar-nav ml-auto  " style="font-size: 20px;">
+          <li class="nav-item active"><a class="nav-link " href="aboutUs.html">About Us</a></li>
+          <li class="nav-item "> <a class="nav-link " href="theTeam.html">The Team</a></li>
+          <li class="nav-item "> <a class="nav-link " href="schedule.html">Schedule</a></li>
+          <li class="nav-item "><a class="nav-link " href="news3.html">News</a></li>
+          <li class="nav-item "> <a class="nav-link" href="HomePage.html">Home</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
 
   <div class="container">
     <div class="row">
@@ -56,14 +57,14 @@
         </p>
       </div>
       <div class="col-sm-12 col-md-12 col-lg-6" id="portrait">
-        
-          <img src="images/Robert2.jpg" alt="robert sixpack" id="robert">
-        
+
+        <img src="images/Robert2.jpg" alt="robert sixpack" id="robert">
+
         <p>Robert Sixpack-Photo taken at 16 y.o.</p>
       </div>
     </div>
     <div class="row" id="secondContainer">
-      
+
 
       <div class="col-sm-12 col-md-12 col-lg-6" id="contactAddress">
         <h2> Location of VIA CLUB</h2>
@@ -79,10 +80,10 @@
         </ul>
       </div>
       <div class="col-sm-12 col-md-12 col-lg-6" id="mapContainer">
-        
+
         <img src="images/ViaClubLocation.jpg" alt="Club location" id="map">
-      
-    </div>
+
+      </div>
     </div>
 
     <div class="row">
@@ -99,67 +100,91 @@
       </div>
 
       <div class="col-sm-12 col-md-12 col-lg-6" id="locationContainer">
-        
-          <img src="images/entrance.jpg" alt="entrance" id="entrance">
-        
+
+        <img src="images/entrance.jpg" alt="entrance" id="entrance">
+
       </div>
     </div>
 
     <div class="row" id="forthContainer">
-      
+
       <div class="col-md-12 col-sm-12 col-lg-6" id="jerseyContainer">
         <h2>Buy our merchandise</h2>
 
-        <a href="https://www.customink.com/designs/viaclub/wgy0-00ce-8f8c/share?pc=EMAIL-40778&utm_campaign=shared%20design&utm_source=share%20link&utm_medium=shared%20design&utm_content=shared%20desktop"><button type="button" class="button">Go to store</button></a>
+        <a
+          href="https://www.customink.com/designs/viaclub/wgy0-00ce-8f8c/share?pc=EMAIL-40778&utm_campaign=shared%20design&utm_source=share%20link&utm_medium=shared%20design&utm_content=shared%20desktop"><button
+            type="button" class="button">Go to store</button></a>
       </div>
       <div class="col-sm-12 col-md-12 col-lg-6" id="merchContainer">
-       
+
         <img src="images/merch.jpg" alt="merchandise" id="merch">
-      
-    </div>
+
+      </div>
     </div>
 
+
+
+
+
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+
+
+
+        <form action="/action_page.php">
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname"><br>
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname"><br>
+          <textarea placeholder="Your comment" name="comment"></textarea><br>
+          <input type="submit" value="Submit">
+          <input type="reset">
+        </form>
+
+
+
+
+      </div>
+    </div>
   </div>
-  <footer class="bg-dark text-center text-white " width="100%" >
+  <footer class="bg-dark text-center text-white " width="100%">
     <div class="footer-content p-2">
 
-        <div class="footer-section  " style="font-size:10px" >
-            <h2 class="Via-text" style="font-size:15px " > <span>VIA CLUB</span></h2>
-            <ul class="list-unstyled mb-0">
-                <span>
-                    <li><i class="fa fa-phone" aria-hidden="true"></i> +45 1234566</li>
-                </span>
-                <span>
-                    <li><i class="fa fa-envelope" aria-hidden="true"></i> <a
-                            href="mailto:kasr@via.dk">ViaClub@via.dk </a></li>
-                </span>
-                <span>
-                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> Langmarksvej 61, 8700, Horsens</li>
-                </span>
-            </ul>
-        </div>
-        
+      <div class="footer-section  " style="font-size:10px">
+        <h2 class="Via-text" style="font-size:15px "> <span>VIA CLUB</span></h2>
+        <ul class="list-unstyled mb-0">
+          <span>
+            <li><i class="fa fa-phone" aria-hidden="true"></i> +45 1234566</li>
+          </span>
+          <span>
+            <li><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:kasr@via.dk">ViaClub@via.dk </a></li>
+          </span>
+          <span>
+            <li><i class="fa fa-map-marker" aria-hidden="true"></i> Langmarksvej 61, 8700, Horsens</li>
+          </span>
+        </ul>
+      </div>
 
-        <div class="social" style="font-size:30px">
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i class="fa fa-youtube-play"
-                    aria-hidden="true"></i></a>
-            <a href="https://twitter.com"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-            <a href="https://www.facebook.com"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-            <a href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></i></a>
-        </div>
+
+      <div class="social" style="font-size:30px">
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+        <a href="https://twitter.com"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></i></a>
+      </div>
     </div>
 
     <!-- Copyright -->
-  <div class="text-center p-2" style="background-color:black; color: white; font-size: small;">
-        copyright &copy; 2021 VIA Club. All Rights Reserved. 
-  
-  </div>
-      <!-- Copyright -->
-    </div>
-</div>
- </footer>
+    <div class="text-center p-2" style="background-color:black; color: white; font-size: small;">
+      copyright &copy; 2021 VIA Club. All Rights Reserved.
 
-  
+    </div>
+    <!-- Copyright -->
+    </div>
+    </div>
+  </footer>
+
+
 
 </body>
 
