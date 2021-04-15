@@ -1,0 +1,101 @@
+body{
+    background-color: gray;
+    width: 100%;
+    color: white;
+    background-image: url(../images/kicking_ball.png);
+    background-repeat: no-repeat;
+    background-position: 0% 75%;
+    background-attachment: fixed;
+    background-size: 40%;
+   
+        
+}
+
+.carousel-inner img {
+    margin: auto;
+  }
+  #myCarousel{
+   min-width: 100%;
+   transform: scale(0.75);
+  }
+.textPart{
+    background-color: #fafafa;
+    color: black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    #myCarousel{
+        min-width: 100%;
+        transform: scale(1.2);
+        margin-top: 5.5em;
+        
+    }
+    
+    
+  }
+  .articles{
+      display: flex;
+      justify-content: center;
+      
+  }
+  
+ .card{
+     background-color: #fafafa;
+     color: black;
+     transition: .3s;
+ }
+ .card:hover{
+     transform: scale(1.1);
+
+ }
+ button{
+     background-color:darkslategray;  
+     border: none;
+     
+  color: white;
+ 
+  text-align: center;
+  text-decoration: none;
+ 
+  font-size: 16px;  
+ }
+ .textContainer{
+     display:flex;
+     justify-content: center;
+     flex-direction: column;
+     justify-content: center;
+     text-align: center;
+     background-color: white;
+     color: black;
+ }
+ .blank{
+     height: 5em;
+ }
+ .newsReverse{
+     display: flex;
+     flex-direction: row-reverse;
+ }
+ .btn-secondary {
+    background-color: transparent;
+    border-color: #231feb;
+    color: #231feb;
+}
+
+
+ .carousel.img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+}
+video{
+    max-width:100%;
+}
+#leakedParagraph p{
+    width: 100%;
+}
