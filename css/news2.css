@@ -3,12 +3,13 @@ body{
     background-color: rgb(167, 163, 163);
     display: flex;
     flex-direction: column;
-     
+   
+    color: rgb(5, 5, 7);
+    background-image: url(../images/kicking_ball.png);
     background-repeat: no-repeat;
     background-position: 0% 75%;
     background-attachment: fixed;
     background-size: 40%;
-    color: rgb(5, 5, 7);
      
 
 }
@@ -20,7 +21,7 @@ body{
      color: yellow;
 }
 .container h1{
-    background-color: blue;
+    background-color: rgb(23, 23, 109);
     color: yellow;
     text-align: center;
     padding: 10px;
@@ -42,9 +43,10 @@ body{
     transition: 0.5s;
 }
 
-.images:hover{
-    border-radius: 70px;
-    
+.whiteContainer{
+    background-color: #FAFAFF;
+    padding: 15px;
+    border-radius: 10px;
 }
 .myimage{
     height: 430px;
@@ -81,8 +83,8 @@ p{
 }
 
 .textPart{
-    background-color: #1107a1;
-    color: rgb(218, 191, 40);
+    background-color:#FAFAFF;
+    color: black;
     border-radius: 5px;
     display: flex;
     justify-content: center;
