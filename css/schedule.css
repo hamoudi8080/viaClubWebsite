@@ -38,23 +38,28 @@ html,body{
   }
   
   #match1{
-    background-color: rgb(104, 48, 194);
+    background-color: rgb(255, 236, 131);
     width: 10em;
   }
   
   #match2{
-    background-color: rgb(101, 120, 206);
+    background-color: rgb(196, 205, 255);
     width: 10em;
   }
   
   #match3{
-    background-color: rgb(31, 214, 175);
+    background-color: rgb(182, 184, 183);
     width: 10em;
   }
 
   #seconddiv
   {
     background-color: #fabd21;
+  }
+
+  ul
+  {
+    list-style-type: none;
   }
   
 
