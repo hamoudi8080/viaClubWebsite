@@ -23,7 +23,7 @@ body{
     border-radius: 5px;
     display: flex;
     justify-content: center;
-   
+    align-items: center;
     text-align: center;
 }
 
@@ -44,7 +44,8 @@ body{
   }
   
  .card{
-     background-color: rgb(13,13,109);
+     background-color: #fafafa;
+     color: black;
      transition: .3s;
  }
  .card:hover{
@@ -78,3 +79,22 @@ body{
      display: flex;
      flex-direction: row-reverse;
  }
+ .btn-secondary {
+    background-color: transparent;
+    border-color: #231feb;
+    color: #231feb;
+}
+
+
+ .carousel.img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+}
+video{
+    max-width:100%;
+}
+#leakedParagraph p{
+    width: 100%;
+}
