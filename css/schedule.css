@@ -15,7 +15,13 @@ html,body{
     margin-right:auto;
     
   }
-
+  
+ 
+  @media only screen and (max-width: 801px) {
+    th{
+      font-size: 0.5em;
+  }
+  }
   td
   {
     background-color: #EEF0F2;
