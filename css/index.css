@@ -13,8 +13,8 @@ body {
 /*The news*/
 .btn-secondary {
     background-color: transparent;
-    border-color: #231feb;
-    color: #231feb;
+    border-color: rgb(23,23,109);
+    color: rgb(23,23,109);
 }
 
 
@@ -84,8 +84,8 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1;
-    transition: all 0.3s linear 0s;
+    
+   
 }
 .our-team:hover .pic:after{
     background: #103F79;
@@ -102,13 +102,12 @@ body {
 }
 
 
-.our-team .team-content{ margin-bottom: 30px; }
+.our-team .team-content{ margin-bottom: 30px; 
+}
 .our-team .title{
     font-size: 22px;
     font-weight: 700;
     color: #4e5052;
-    letter-spacing: 1px;
-    text-transform: capitalize;
     margin-bottom: 5px;
 }
 
