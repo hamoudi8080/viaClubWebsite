@@ -159,4 +159,27 @@ input[type=submit] {
   input[type=reset]:hover {
     background-color: #0664b1;
   }
+  .formContainer{
+      display: flex;
+      justify-content: center;
+  }
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .buttons{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  .question{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+  }
 

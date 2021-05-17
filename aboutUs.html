@@ -14,34 +14,36 @@
    
   <script src=" https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <link rel="icon" href="../images/viac_small.png">
 </head>
 <title>About Us</title>
 </head>
 
 <body>
+ <!--Nav bar responsive-->
 
-  <!--Nav bar responsive-->
-
-  <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
-    <div class="container-fluid">
-      <a class="img-responsive" href="HomePage.html"><img src="images/viac_small.png" height="59px" width="50px"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-
-        <ul class="navbar-nav ml-auto  " style="font-size: 20px;">
-          <li class="nav-item active"><a class="nav-link " href="aboutUs.html">About Us</a></li>
-          <li class="nav-item "> <a class="nav-link " href="theTeam.html">The Team</a></li>
-          <li class="nav-item "> <a class="nav-link " href="schedule.html">Schedule</a></li>
-          <li class="nav-item "><a class="nav-link " href="news2.html">News</a></li>
-          <li class="nav-item "> <a class="nav-link" href="HomePage.html">Home</a></li>
-        </ul>
-
-      </div>
-    </div>
-  </nav>
-
+ <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+  <div class="container-fluid">
+    <a class="img-responsive" href="HomePage.html"><img src="images/viac_small.png" height="59px" width="50px"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+ 
+    <ul class="navbar-nav ml-auto  " style="font-size: 20px;">
+      
+      <li class="nav-item active"> <a class= "nav-link" href="index.html">Home</a></li>
+      <li class="nav-item "><a class= "nav-link " href="aboutUs.html" >About Us</a></li>
+      <li class="nav-item "> <a class= "nav-link " href="theTeam.html">The Team</a></li>
+      <li class="nav-item "> <a class= "nav-link " href="schedule.html">Schedule</a></li>
+      <li class="nav-item "><a class= "nav-link " href="news2.html">News</a></li>
+   
+  </ul> 
+  
+</div>  
+</div>
+</nav>   
+<!--Nav bar responsive end-->
   <div class="container">
     <div class="row">
       <div class="col-sm-12 col-md-12  col-lg-6" id="intro">
@@ -124,21 +126,28 @@
 
 
 
-
+<div class="row">
+  <div class="col-lg-4 offset-lg-4 question">
+    <h2>What do you think about VIA Club?</h2>
+  </div>
+</div>
 
     <div class="row">
-      <div class="col-lg-8 offset-lg-2">
+      <div class="col-lg-8 offset-lg-2 formContainer">
 
-
+        
 
         <form action="/action_page.php">
-          <label for="fname">First name:</label>
+          <label for="fname">Name:</label>
           <input type="text" id="fname" name="fname"><br>
-          <label for="lname">Last name:</label>
+          <label for="lname">Email:</label>
           <input type="text" id="lname" name="lname"><br>
-          <textarea placeholder="Your comment" name="comment"></textarea><br>
+          <textarea placeholder="Your comment" name="comment" cols="50"></textarea><br>
+          <div class="buttons">
           <input type="submit" value="Submit">
+        
           <input type="reset">
+        </div>
         </form>
 
 
@@ -146,6 +155,9 @@
 
       </div>
     </div>
+
+
+
   </div>
   <footer class="bg-dark text-center text-white " width="100%">
     <div class="footer-content p-2">
