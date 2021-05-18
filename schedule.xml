@@ -1,0 +1,53 @@
+<series>
+        <teams>
+            <team>ViaClub</title>
+            <match>4</match>
+            <goals>9</year>
+            <points>12</points>
+            <goalsOn>0</goalsOn>
+        </teams>
+        <teams>
+            <team>Chelsea F.C.</title>
+            <match>4</match>
+            <goals>6</goals>
+            <points>9</points>
+            <goalsOn>3</goalsOn>
+        </teams>
+
+        <teams>
+            <team>Liverpool F.C.</title>
+            <match>4</match>
+            <goals>4</goals>
+            <points>9</points>
+            <goalsOn>3</goalsOn>
+        </teams>
+
+        <teams>
+            <team>Arsenal</title>
+            <match>4</match>
+            <goals>5</goals>
+            <points>6</points>
+            <goalsOn>2</goalsOn>
+        </teams>
+        <teams>
+            <team>Man City</title>
+            <match>7</match>
+            <goals>6</goals>
+            <points>3</points>
+            <goalsOn>4</goalsOn>
+        </teams>
+        <teams>
+            <team>Man United</title>
+            <match>2</match>
+            <goals>3</goals>
+            <points>2</points>
+            <goalsOn>3</goalsOn>
+        </teams>
+        <teams>
+            <team>Everton</title>
+            <match>-5</match>
+            <goals>1</goals>
+            <points>5</points>
+            <goalsOn>-6</goalsOn>>
+        </teams>
+</series>
