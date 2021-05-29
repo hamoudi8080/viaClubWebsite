@@ -79,7 +79,7 @@ h3 {
   align-items: center;
   padding: 1em;
 }
-.button {
+#button {
   margin-top: 1em;
   color: white;
   background-color: gray;
@@ -87,8 +87,10 @@ h3 {
   height: 5em;
   border-radius: 3px;
   transition: 0.3s;
+  text-align: center;
+  padding-top: 1.7em;
 }
-button:hover {
+#button:hover {
   background-color: #f3b229;
 }
 #merch {
