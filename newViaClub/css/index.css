@@ -152,8 +152,10 @@ h3{
     height: 5em;
     border-radius: 3px;
     transition: 0.3s;
+    text-align: center;
+    padding-top:1.5em;
   }
-  button:hover {
+  .button:hover {
     background-color: #f3b229;
   }
 
