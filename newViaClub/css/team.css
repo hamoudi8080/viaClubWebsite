@@ -83,3 +83,7 @@ footer{
     background-color: rgb(201, 200, 200);
     opacity: 0.5;
   }
+
+  #table th, td{
+    border: 1px solid black;
+  }
