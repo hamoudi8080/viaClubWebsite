@@ -3,27 +3,66 @@
   <players>
     <number>1</number>
     <benchedInARow>0</benchedInARow>
-    <name>Christopher</name>
-    <positions>Sweeper</positions>
-    <positions>Full-Back</positions>
+    <name>Christopher Gadgaard</name>
   </players>
   <players>
     <number>2</number>
     <benchedInARow>0</benchedInARow>
-    <name>Vlad</name>
-    <positions>Sweeper</positions>
+    <name>Vlad Lazar</name>
   </players>
   <players>
     <number>3</number>
     <benchedInARow>0</benchedInARow>
-    <name>Miguel</name>
-    <positions>Defensive Midfielder</positions>
-    <positions>Full-Back</positions>
+    <name>Miguel Alessio</name>
   </players>
   <players>
     <number>4</number>
     <benchedInARow>0</benchedInARow>
-    <name>Julie</name>
-  
+    <name>Julie Virguez</name>
+  </players>
+  <players>
+    <number>5</number>
+    <benchedInARow>0</benchedInARow>
+    <name>Hamoudi Resho</name>
+  </players>
+  <players>
+    <number>10</number>
+    <benchedInARow>0</benchedInARow>
+    <name>Allan Henriksen</name>
+  </players>
+  <players>
+    <number>25</number>
+    <benchedInARow>0</benchedInARow>
+    <name>Mona Andersen</name>
+  </players>
+  <players>
+    <number>33</number>
+    <benchedInARow>0</benchedInARow>
+    <name>Jakob Rasmussen</name>
+  </players>
+  <players>
+    <number>99</number>
+    <benchedInARow>0</benchedInARow>
+    <name>Io Odderskov</name>
+  </players>
+  <players>
+    <number>69</number>
+    <benchedInARow>0</benchedInARow>
+    <name>John Dillermand</name>
+  </players>
+  <players>
+    <number>20</number>
+    <benchedInARow>0</benchedInARow>
+    <name>Michael Laudrup</name>
+  </players>
+  <players>
+    <number>30</number>
+    <benchedInARow>0</benchedInARow>
+    <name>Nicklas Bendtner</name>
+  </players>
+  <players>
+    <number>31</number>
+    <benchedInARow>0</benchedInARow>
+    <name>Peter Schmeichel</name>
   </players>
 </PlayerList>

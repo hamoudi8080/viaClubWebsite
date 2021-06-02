@@ -84,6 +84,14 @@ footer{
     opacity: 0.5;
   }
 
-  #table th, td{
-    border: 1px solid black;
+  #playersTable th, td{
+    border: 2px solid black;
+    text-align: center;
+    background-color: lightgrey;
+    padding: 10px;
+    
+  }
+  #playersTable{
+    width: 100%;
+
   }
