@@ -198,3 +198,25 @@ body {
     background-color: rgb(201, 200, 200);
     opacity: 0.5;
   }
+
+
+
+
+
+
+.matchType{
+  margin-top: 10px;
+  background-color: #fabd21;
+  text-align: center;
+}
+.opponent {
+  margin-top: 10px;
+  background-color: #fabd21;
+  text-align: center;
+}
+.myTablee tr td {
+  
+  background-color: #fabd21;
+  
+    
+}
