@@ -16,7 +16,8 @@ function showData(xml) {
   var j;
   var xmlDoc = xml.responseXML;
   var table =
-    "<tr><th class='tableStyles'>Name</th><th class='tableStyles'>Number</th><th class='tableStyles'>Positions</th></tr>";
+    "<tr><th class='tableStyles'>Name</th><th class='tableStyles'>Number</th>"
+    +"<th class='tableStyles'>Positions</th></tr>";
   var x = xmlDoc.getElementsByTagName("players");
 
   for (i = 0; i < x.length; i++) {

@@ -4,36 +4,46 @@
     <number>1</number>
     <benchedInARow>0</benchedInARow>
     <name>Christopher Gadgaard</name>
+    <positions>Attacking Midfielder</positions>
   </players>
   <players>
     <number>2</number>
     <benchedInARow>0</benchedInARow>
     <name>Vlad Lazar</name>
+    <positions>Goalkeeper</positions>
+    <positions>Sweeper</positions>
   </players>
   <players>
     <number>3</number>
     <benchedInARow>0</benchedInARow>
     <name>Miguel Alessio</name>
+    <positions>Central Midfielder</positions>
   </players>
   <players>
     <number>4</number>
     <benchedInARow>0</benchedInARow>
     <name>Julie Virguez</name>
+    <positions>Forward</positions>
   </players>
   <players>
     <number>5</number>
     <benchedInARow>0</benchedInARow>
     <name>Hamoudi Resho</name>
+    <positions>Attacking Midfielder</positions>
+    <positions>Striker</positions>
   </players>
   <players>
     <number>10</number>
     <benchedInARow>0</benchedInARow>
     <name>Allan Henriksen</name>
+    <positions>Winger</positions>
+    <positions>Full-Back</positions>
   </players>
   <players>
     <number>25</number>
     <benchedInARow>0</benchedInARow>
     <name>Mona Andersen</name>
+    <positions>Attacking Midfielder</positions>
   </players>
   <players>
     <number>33</number>
@@ -44,6 +54,8 @@
     <number>99</number>
     <benchedInARow>0</benchedInARow>
     <name>Io Odderskov</name>
+    <positions>Centre-Back</positions>
+    <positions>Striker</positions>
   </players>
   <players>
     <number>69</number>
@@ -59,10 +71,13 @@
     <number>30</number>
     <benchedInARow>0</benchedInARow>
     <name>Nicklas Bendtner</name>
+    <positions>Defensive Midfielder</positions>
   </players>
   <players>
     <number>31</number>
     <benchedInARow>0</benchedInARow>
     <name>Peter Schmeichel</name>
+    <positions>Sweeper</positions>
+    <positions>Goalkeeper</positions>
   </players>
 </PlayerList>
