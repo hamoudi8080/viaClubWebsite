@@ -4,7 +4,7 @@ html,body{
 }
 
 body {
-    background-color: rgb(248, 247, 247);
+    background-color: #f4f9e9;
     position:relative;
 
 
@@ -13,8 +13,8 @@ body {
 /*The news*/
 .btn-secondary {
     background-color: transparent;
-    border-color: rgb(23,23,109);
-    color: rgb(23,23,109);
+    border-color: #103f79;
+    color: #103f79;
 }
 
 
@@ -29,7 +29,7 @@ body {
 
 #fans-comments-carousel {
     min-height: 200px;
-    background: rgb(23,23,109);
+    background: #103f79;
 }
 
 .embed-responsive-100x400px{
@@ -50,7 +50,7 @@ body {
     text-align: center;
     overflow: hidden;
     position: relative;
-    border-bottom: 5px solid #00325a;
+    border-bottom: 5px solid #103f79;
 }
 
 .our-team .pic{
@@ -65,7 +65,7 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: #00325a;
+    background: #103f79;
     position: absolute;
     bottom: 135%;
     right: 0;
@@ -87,6 +87,9 @@ body {
     
    
 }
+.row{
+    margin-top: 1em;
+}
 .our-team:hover .pic:after{
     background: #103F79;
 }
@@ -100,6 +103,32 @@ body {
     position: relative;
     z-index: 2;
 }
+h3{
+    color: #f3b229;
+}
+#facilityCaption{
+    color: #5f5e5e;
+}
+#aboutPic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 231, 231);
+    
+}
+#facilityPic{
+    width: 100%;
+    height: auto;
+}
+#aboutIntro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:  #f3b229;
+    color: #5f5e5e;
+}
 
 
 .our-team .team-content{ margin-bottom: 30px; 
@@ -110,8 +139,28 @@ body {
     color: #4e5052;
     margin-bottom: 5px;
 }
+#buttonDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    margin-top: 1em;
+    color: white;
+    background-color: gray;
+    width: 10em;
+    height: 5em;
+    border-radius: 3px;
+    transition: 0.3s;
+  }
+  button:hover {
+    background-color: #f3b229;
+  }
 
 /*Map*/
 .embed-responsive-100x400px{
     padding-bottom: 300px;
+  }
+  footer{
+      margin-top: 2em;
   }
